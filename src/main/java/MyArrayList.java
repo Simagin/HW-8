@@ -41,7 +41,7 @@ public class MyArrayList<T> implements InterfaceMyArray<T> {
     @Override
     public void clear() {
         counter = 0;
-        Arrays.copyOf(arr, 0);
+        arr = Arrays.copyOf(arr, 0);
         index = 10;
     }
 
